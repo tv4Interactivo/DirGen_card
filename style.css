@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+  	padding: 0;
+	box-sizing: border-box;
+	background-color: #000056;
+}
+
+.video{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#playBtn{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.493);
+	border-radius: 50%;
+	border: none;
+}
+
+i{
+	color: #000056;
+	font-size: 80px;
+}
